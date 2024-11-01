@@ -453,6 +453,13 @@ header .navbar ul li a:hover{
 
 /*media queries*/
 @media (max-width:1200px){
+    .project {
+        position: relative;
+        width: calc(100% - 10px); /* Adjust width as needed */
+        margin-bottom: 20px;
+    }}
+
+@media (max-width:1200px){
     html{
         font-size:55%;
     }

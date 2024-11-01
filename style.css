@@ -457,7 +457,12 @@ header .navbar ul li a:hover{
         position: relative;
         width: calc(100% - 10px); /* Adjust width as needed */
         margin-bottom: 20px;
-    }}
+        
+    }
+.project-overlay p {
+    font-size: 8px;
+
+}}
 
 @media (max-width:1200px){
     html{

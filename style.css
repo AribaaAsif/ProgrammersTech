@@ -35,7 +35,7 @@ body{
     padding-left: 35rem;
 }
 section{
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 1rem;
 }
 .btn{
@@ -214,7 +214,6 @@ header .navbar ul li a:hover{
 .about .row .info{
     flex: 1 1 48rem;
     padding: 2rem 1rem;
-    justify-items: center;
 }
 .about .row .info h3{
    font-size: 2rem;
@@ -307,9 +306,10 @@ header .navbar ul li a:hover{
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
+  
 } 
 .contact .row form{
-    flex: 1 1 45rem;
+    flex: 4 1 45rem;
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 4rem;
@@ -329,7 +329,8 @@ form#contact-form {
     background-color: #ffffff;
     transform: scale(1); /* Initial scale */
     animation: zoomOut 1s ease-in-out;
-   
+    margin-top: 50px;
+    padding-top: 3rem;
 }
 @keyframes zoomOut {
   from {
@@ -357,7 +358,7 @@ form#contact-form {
 .contact .row .content .info h3{
     display: flex;
     align-items: center;
-    font-size: 17px;
+    font-size: 19px;
     color: #eee;
     padding: 1rem 0;
     font-weight: normal;
@@ -371,7 +372,6 @@ form#contact-form {
 }
 .contact .row .content .info h3 span {
     color: white;
-    font-size: 15px;
 }
 .contact .row .content .info h3 span:hover{
     color:#f3ff6e
@@ -469,7 +469,7 @@ form#contact-form {
 .project-overlay p {
     padding: 20px;
     text-align: center;
-    font-size: 8px;
+    font-size: 15px;
 
 }
 .headline{
@@ -485,12 +485,12 @@ form#contact-form {
 @media (max-width:1200px){
     .project {
         position: relative;
-        width: calc(100% - 0px); /* Adjust width as needed */
+        width: calc(100% - 10px); /* Adjust width as needed */
         margin-bottom: 20px;
         font-size:10px;
     }
     section{
-        min-height: 85vh;}}
+        min-height: 55vh;}}
 
 
 @media (max-width:1200px){
@@ -498,7 +498,7 @@ form#contact-form {
         font-size:55%;
     }
     .home{
-        padding: 1rem 1rem;
+        padding: 1rem 4rem;
         text-align: center;
     }
 }
@@ -529,7 +529,7 @@ form#contact-form {
         margin: 2rem 1rem;
         align-items: space-evenly;
         padding-top: 4rem;
-        margin:0 1rem;
+        margin:0 3rem;
 }
 .education .box-container .box{
     padding-top: 5rem;
@@ -543,16 +543,17 @@ form#contact-form {
 .about .row .counter .info span{
     font-size: 5rem;
 }
+.about .row .info {
+    justify-items: center; 
+}
 .about .row .counter .box{
     width:100%;
   
     padding: 2rem;
-    margin: 0.3rem;
-    margin-bottom: 1rem;
-
+    margin: 2rem;
 }
     .about .row .counter .box h4 {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: unset;
     padding: 1rem;}
 }
@@ -563,7 +564,7 @@ form#contact-form {
 
 }
 .skillbox p{
-    
+    padding-top: 20px;
     font-size: 1.5rem;
     width: 30rem;
    
@@ -584,4 +585,10 @@ form#contact-form {
    .contact .row form{
     margin: 3rem 0;
    }
+   .project-overlay p {
+    font-size: 5px;
+}
+.about .row .info {
+    justify-items: center; 
+}
 }

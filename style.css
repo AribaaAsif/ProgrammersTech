@@ -485,7 +485,7 @@ form#contact-form {
 @media (max-width:1200px){
     .project {
         position: relative;
-        width: calc(100% - 10px); /* Adjust width as needed */
+        width: calc(100% - 0px); /* Adjust width as needed */
         margin-bottom: 20px;
         font-size:10px;
     }
@@ -529,7 +529,7 @@ form#contact-form {
         margin: 2rem 1rem;
         align-items: space-evenly;
         padding-top: 4rem;
-        margin:0 3rem;
+        margin:0 1rem;
 }
 .education .box-container .box{
     padding-top: 5rem;

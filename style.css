@@ -35,7 +35,7 @@ body{
     padding-left: 35rem;
 }
 section{
-    min-height: 70vh;
+    min-height: 65vh;
     padding: 1rem;
 }
 .btn{
@@ -490,7 +490,7 @@ form#contact-form {
         font-size:10px;
     }
     section{
-        min-height: 55vh;}}
+        min-height: 40vh;}}
 
 
 @media (max-width:1200px){

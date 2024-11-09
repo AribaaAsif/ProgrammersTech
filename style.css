@@ -371,7 +371,7 @@ form#contact-form {
 }
 .contact .row .content .info h3 span {
     color: white;
-    font-size: 18px;
+    font-size: 15px;
 }
 .contact .row .content .info h3 span:hover{
     color:#f3ff6e
@@ -469,7 +469,7 @@ form#contact-form {
 .project-overlay p {
     padding: 20px;
     text-align: center;
-    font-size: 13px;
+    font-size: 8px;
 
 }
 .headline{
@@ -576,7 +576,7 @@ form#contact-form {
         margin:0 3rem;
     }
    .about .row .counter .box{
-        width: 75%;
+        width: 95%;
    }
    .education .box-container .box{
     width: 100%;

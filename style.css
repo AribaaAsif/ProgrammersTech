@@ -35,7 +35,7 @@ body{
     padding-left: 35rem;
 }
 section{
-    min-height: 65vh;
+    min-height: 75vh;
     padding: 1rem;
 }
 .btn{
@@ -474,7 +474,8 @@ form#contact-form {
 }
 .headline{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 800;
     align-items: center;
 }
 

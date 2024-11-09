@@ -371,6 +371,7 @@ form#contact-form {
 }
 .contact .row .content .info h3 span {
     color: white;
+    font-size: 18px;
 }
 .contact .row .content .info h3 span:hover{
     color:#f3ff6e

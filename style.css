@@ -357,7 +357,7 @@ form#contact-form {
 .contact .row .content .info h3{
     display: flex;
     align-items: center;
-    font-size: 19px;
+    font-size: 17px;
     color: #eee;
     padding: 1rem 0;
     font-weight: normal;
@@ -490,7 +490,7 @@ form#contact-form {
         font-size:10px;
     }
     section{
-        min-height: 80vh;}}
+        min-height: 85vh;}}
 
 
 @media (max-width:1200px){
@@ -498,7 +498,7 @@ form#contact-form {
         font-size:55%;
     }
     .home{
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         text-align: center;
     }
 }
@@ -547,7 +547,9 @@ form#contact-form {
     width:100%;
   
     padding: 2rem;
-    margin: 2rem;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+
 }
     .about .row .counter .box h4 {
         font-size: 18px;
